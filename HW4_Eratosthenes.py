@@ -21,18 +21,18 @@ def eratosthenes(n):
 # eratosthenes(10)
 
 
-def nat_num(A):
-    """Проверка числа - простое или составное"""
-    A_2 = []
-    N = 0
-    for i in range(len(A)):
-        i = A[i]
-        for j in range(2, i):
-            if i % j == 0:
-                N = N + 1
-                break
-        else:
-            A_2.append(i)
+# def nat_num(A):
+#     """Проверка числа - простое или составное"""
+#     A_2 = []
+#     N = 0
+#     for i in range(len(A)):
+#         i = A[i]
+#         for j in range(2, i):
+#             if i % j == 0:
+#                 N = N + 1
+#                 break
+#         else:
+#             A_2.append(i)
 
     # print(A_2)
     # print(f'A: {A}')
